@@ -2,3 +2,10 @@ title: Fouad KHIREDDINE
 #logo:
 #slow_downloads:
 theme: jekyll-theme-minimal
+
+plugins:
+  - jekyll-remote-theme
+
+# هذا يضمن تحميل CSS المخصص
+include:
+  - assets/css/style.css
